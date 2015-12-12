@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :comments
+  resources :comments
+  resources :comments
   get 'pages/info'
 
   resources :ideas
